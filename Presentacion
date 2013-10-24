@@ -1,0 +1,269 @@
+<div class="slides">
+    <section>
+        <h1>
+            <b>
+            <font color="#ffffff">
+                <br>
+            </font>
+        </b>
+    </h1>
+<h1 class="absolute-element" style="position: absolute; width: 968px; height: 192px; z-index: 4; left: 2px; top: 177px;">
+    <b>
+    <font color="#ffffff">Busquedas en </font>
+    <font color="#4a86e8">Python</font>
+</b>
+</h1>
+<div>
+    <b>
+    <font color="#4a86e8">
+        <br>
+    </font>
+</b>
+</div>
+<div style="text-align: left; position: absolute; width: 72px; height: 39px; z-index: 4; left: 689px; top: 517px;" class="absolute-element">
+    <b>
+    <font color="#ffff00">Por:</font>&nbsp;</b>
+</div>
+<div style="text-align: left; position: absolute; width: 245px; height: 39px; z-index: 4; left: 690px; top: 564px;" class="absolute-element">
+    <b>Jodie Hernandez</b>
+</div>
+</section>
+<section data-background-color="rgba( 0, 0, 0, 0.6 )">
+    <h2>
+    <b>
+    <span lang="ES-MX">
+        <font color="#ff0000">
+            <br>
+</font>
+    </span>
+</b>
+</h2>
+<div>
+    <b>
+    <span lang="ES-MX">
+        <font color="#ff0000">
+            <br>
+</font>
+    </span>
+</b>
+</div>
+<h2>
+    <b>
+    <span lang="ES-MX">
+        <font color="#ff0000">BÚSQUEDA</font>
+    </span>
+</b>
+</h2>
+<div>
+    <b>
+    <span lang="ES-MX">
+        <br>
+</span>
+</b>
+</div>
+
+<p class="MsoNormal">
+<b>
+<span lang="ES-MX">Para buscar una subcadena
+(o un caracter) en una cadena, Python nos ofrece varias alternativas.&nbsp;</span>
+</b>
+</p>
+<p class="MsoNormal">
+
+
+
+
+
+</p>
+</section>
+<section data-background-color="rgba( 0, 0, 0, 0.6 )">
+    <h2>
+    </h2>
+<p class="MsoNormal" style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+    <b>
+    <span lang="ES-MX">
+        <br>
+    </span>
+</b>
+</p>
+<p class="MsoNormal" style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+<b>
+<span lang="ES-MX">
+    <br>
+</span>
+</b>
+</p>
+<p class="MsoNormal" style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+<b>
+<span lang="ES-MX">
+    <br>
+</span>
+</b>
+</p>
+<p class="MsoNormal" style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+<b>
+<span lang="ES-MX">Si solamente necesitamos saber si una cadena contiene cierto caracter o cierta subcadena, usamos el operador<font color="#e69138"> </font>
+<font color="#00ff00">in</font>:</span>
+</b>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p class="MsoNormal" style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+<br>
+</p>
+<p class="MsoNormal" style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+</p>
+<div style="text-align: left;">
+<pre><code><font style="font-size: 32px;">&gt;&gt;&gt; if 'la' in 'hola':
+...&nbsp;&nbsp;&nbsp;&nbsp; print '¡Está!'
+...
+¡Está! </font></code></pre>
+</div>
+<p>
+</p>
+</section>
+<section>
+    <p class="MsoNormal">
+        <b>
+        <span lang="ES-MX">
+            <br>
+        </span>
+    </b>
+</p>
+<p class="MsoNormal">
+<b>
+<span lang="ES-MX">Si necesitamos saber la
+posición en la que se encuentra la subcadena, usamos los métodos <font color="#00ffff">index() </font>o
+<font color="#00ffff">find()</font>. Si no se encuentra la subcadena, <font color="#ff9900">find()</font> devuelve -1</span>
+</b>
+</p>
+<p>
+</p>
+<p>
+</p>
+<p class="MsoNormal">
+<br>
+</p>
+<p class="MsoNormal">
+</p>
+<div style="text-align: justify;">
+</div>
+<p>
+</p>
+<pre><code><font style="font-size: 32px;">&gt;&gt;&gt; cadena = "hola"
+&gt;&gt;&gt; cadena.find('ha') #</font><font style="font-size: 24px;">'ha' no está, find()retorna -1</font><font style="font-size: 32px;">
+-1 </font></code></pre>
+<pre><code><font style="font-size: 32px;">&gt;&gt;&gt; cadena.find('a') # si la cadena está
+3
+</font></code></pre>
+<pre><code><font style="font-size: 32px;">&gt;&gt;&gt; if cadena.find('ha') == -1:
+...     print 'No encontrada'
+...
+No encontrada</font>
+</code></pre>
+<span style="color: rgb(220, 220, 220); font-family: monospace; font-size: 31.637922286987305px; font-style: normal; font-variant: normal; text-align: left; white-space: pre-wrap; background-color: rgb(63, 63, 63);">
+<div style="text-align: justify;">
+    <br>
+</div>
+</span>
+</section>
+<section>
+    <div>
+        <br>
+    </div>
+    <b style="font-size: 30.31967544555664px; font-style: normal; font-variant: normal;">
+        <span lang="ES-MX">Mientras que <font color="#ff9900">index()</font> lanza una excepción de tipo ValueError.</span>
+    </b>
+    <div>
+        <br>
+</div>
+<div style="text-align: justify; ">
+<pre><code><font style="font-size: 32px;">&gt;&gt;&gt; cadena.index('ha')&nbsp;# </font><font style="font-size: 24px;"><font><font>index()</font><font>lanza una exce</font></font><font>pción</font></font><font style="font-size: 32px;">
+Traceback (most recent call last):
+&nbsp; File "", line 1, in
+ValueError: substring not found </font></code>    </pre>
+<pre style="font-style: normal; font-variant: normal; width: 861.6184692382813px;">
+    <code>
+        <font style="font-size: 32px;">&gt;&gt;&gt; cadena.index('a')
+3 </font>
+    </code>
+</pre>
+<pre style="font-style: normal; font-variant: normal; width: 861.6184692382813px;">
+<code>
+    <font style="font-size: 32px;">&gt;&gt;&gt; try:
+...&nbsp;&nbsp;&nbsp;&nbsp; cadena.index('ha')
+... except ValueError:
+...&nbsp;&nbsp;&nbsp;&nbsp; print 'No encontrada'
+...
+No encontrada </font>
+</code>
+</pre>
+</div>
+</section>
+<section>
+    <section>
+        <h3>
+            <br>
+        </h3>
+        <h3>Un uso común de ambos métodos es obtener toda la cadena desde el principio hasta la primer ocurrencia de cierta subcadena:</h3>
+<div>
+        <br>
+    </div>
+<div style="text-align: justify; ">
+<pre><code><font style="font-size: 32px;">&gt;&gt;&gt; cadena = "hola"
+&gt;&gt;&gt; # guardamos en pos_la la posición de 'la' en 'hola' (tercer caracter)
+&gt;&gt;&gt; pos_la = 'hola'.find('la')
+&gt;&gt;&gt; # pedimos a Python imprimir la cadena 'hola' desde el principio hasta el tercer caracter (sin incluirlo)
+&gt;&gt;&gt; print 'hola'[:pos_la]
+ho&nbsp; </font></code></pre>
+</div>
+</section>
+<section>
+    <h3>
+        <br>
+        </h3>
+<h3>Tanto <font color="#d9d2e9">index</font> como<font color="#d9d2e9"> find</font> aceptan parámetros que restringen la búsqueda a cierto tramo de la cadena: en vez de buscar desde el principio y hasta el final.&nbsp;</h3>
+<h3>El segundo argumento del método indica desde qué posición comenzar a buscar y el tercero indica en qué posición terminar la búsqueda.</h3>
+<h3>
+<br>Para ejemplificar, busquemos todas las ocurrencias de la letra e en una cadena cualquiera.</h3>
+    </section>
+    <section>
+        <div style="text-align: justify; ">
+<div>
+<pre><code><font style="font-size: 32px;">cadena = 'La mejor Guía de Python'
+lista = []
+pos_inicial = -1</font></code><code><br></code>    </pre>
+</div>
+<div>
+<pre><code><font style="font-size: 32px;">try:
+&nbsp; &nbsp; while True:
+&nbsp; &nbsp; &nbsp; &nbsp; # </font><font style="font-size: 24px;">buscamos desde un caracter más adelante de</font><font style="font-size: 32px;">
+&nbsp; &nbsp; &nbsp; &nbsp; # </font><font style="font-size: 24px;">la última ocurrencia encontrada</font><font style="font-size: 32px;">
+&nbsp; &nbsp; &nbsp; &nbsp; pos_inicial = cadena.index('e', pos_inicial+1)
+&nbsp; &nbsp; &nbsp; &nbsp; lista.append(pos_inicial)
+except ValueError: #</font><font style="font-size: 24px;"> cuando no se encuentre la letra</font><font style="font-size: 32px;">
+&nbsp; &nbsp; print 'Posiciones de la letra "e" en la cadena:', lista</font></code><code><font style="font-size: 32px;">
+Posiciones de la letra "e" en la cadena: [6, 18, 27, 33, 38, 46, 50]  </font></code></pre>
+</div>
+<div>
+<br>
+</div>
+</div>
+</section>
+<section>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/jmhm/images/128441/gracias__1_.png" style="width: 893.0476932580018px; height: 358.113221929107px; max-height: none; max-width: none;">
+    <br>
+</section>
+</section>
+</div>
